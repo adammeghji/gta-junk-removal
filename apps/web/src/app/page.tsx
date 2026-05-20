@@ -7,7 +7,7 @@ export default function Home() {
           Same-Day Junk Removal
         </h1>
         <p className="text-xl md:text-2xl text-orange-100 mb-8">
-          Greater Toronto Area's fastest and most convenient junk removal
+          Greater Toronto Area&apos;s fastest and most convenient junk removal
           service.
         </p>
         <a
@@ -27,7 +27,7 @@ export default function Home() {
           {[
             { step: "1", title: "Get a Quote", desc: "Tell us what you need removed. Pricing in seconds, no surprises." },
             { step: "2", title: "We Show Up", desc: "Our crew arrives the same day, usually within 2 hours." },
-            { step: "3", title: "Done!", desc: "We haul it away. You pay only when the job's complete." },
+            { step: "3", title: "Done!", desc: "We haul it away. You pay only when the job is complete." },
           ].map(({ step, title, desc }) => (
             <div key={step} className="text-center">
               <div className="w-16 h-16 bg-brand-500 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
