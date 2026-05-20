@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+
+# Environment variables - never commit these
+.env
+.env.local
+.env.*.local
+
+# Prisma
+packages/db/node_modules/.prisma/
+
+# Build outputs
+dist/
+
+# Turbo
+.turbo/
+
+# Misc
+.DS_Store
+*.pem
+.vercel
